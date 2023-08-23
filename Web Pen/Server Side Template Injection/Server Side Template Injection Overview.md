@@ -14,7 +14,7 @@ Identifying server-side template injection vulnerabilities and crafting a succes
 Who to find SSTI Vulnerabilities
 Server-side template injection vulnerabilities often go unnoticed not because they are complex but because they are only really apparent to auditors who are explicitly looking for them. If you are able to detect that a vulnerability is present, it can be surprisingly easy to exploit it. This is especially true in unsandboxed environments.
  * The simplest initial approach is to try fuzzing the template by injecting a sequence of special characters commonly used in template expressions, such as `${{<%[%'"}}%\`.
- * Plaintext context, Most template languages allow you to freely input content either by using HTML tags directly or by using the template's native syntax, which will be rendered to HTML on the back-end before the HTTP response is sent.For example, consider a template that contains the following vulnerable code:
+ * Plaintext context, Most template languages allow you to freely input content either by using HTML tags directly or by using the template's native syntax, which will be rendered to HTML on the back-end before the HTTP response is sent. For example, consider a template that contains the following vulnerable code:
 	`render('Hello ' + username)`
 	During auditing, we might test for server-side template injection by requesting a URL such as:
 	`http://vulnerable-website.com/?username=${7*7}`

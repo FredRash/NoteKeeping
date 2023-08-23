@@ -10,11 +10,11 @@ Black Box Testing
 
 White Box Testing
 * Identify instances where user-supplied input is being passed to file APIs or as parameters to the OS
-	* Idenrify instances in a running app first(black-box perspective) and then review the code responsible for the functionality
-	* Grep on functions in the code that are known to include and evaluate files on the server and review if they yake user supplied input
-	* Use a tool to monitor all filesystem activity on the server. then test each page of the app by inserting a single unique string. Set a filter in your monitoring tool for that specific stirng and idenity all filesystem events contain the sting.
+	* Identify instances in a running app first(black-box perspective) and then review the code responsible for the functionality
+	* Grep on functions in the code that are known to include and evaluate files on the server and review if they make user supplied input
+	* Use a tool to monitor all filesystem activity on the server. then test each page of the app by inserting a single unique string. Set a filter in your monitoring tool for that specific string and identity all filesystem events contain the sting.
 
-Explioiting Directory Traversal
+Exploiting Directory Traversal
 * Regular Case, .. /.. /.. /.. /.. /.. /etc/passwd or \\..\\WINDOWS\win.ini
 * Absolute paths like /etc/passwd
 * Traversal sequences stripped non-recursively, ....//....//etc/passwd

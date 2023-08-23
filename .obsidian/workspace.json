@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a264b685294bea5c",
+        "id": "5069e5208e2bad9b",
         "type": "tabs",
         "children": [
           {
-            "id": "34f571af416e0266",
+            "id": "be7565c553ab6327",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pen/Server Side Template Injection/Server Side Template Injection Overview.md",
+                "file": "Footprinting/HOSTS/FTP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "596e88632cd7b767",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Pen/Local File Inclusion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 344.5
   },
   "right": {
     "id": "ab274f69953903ac",
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pen/Server Side Template Injection/Server Side Template Injection Overview.md",
+                "file": "Web Pen/Local File Inclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pen/Server Side Template Injection/Server Side Template Injection Overview.md",
+                "file": "Web Pen/Local File Inclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pen/Server Side Template Injection/Server Side Template Injection Overview.md"
+                "file": "Web Pen/Local File Inclusion.md"
               }
             }
           }
@@ -154,43 +167,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34f571af416e0266",
+  "active": "596e88632cd7b767",
   "lastOpenFiles": [
-    "Web Pen/Server Side Template Injection/Exploiting SSTI.md",
-    "Web Pen/Server Side Template Injection/Server Side Template Injection Overview.md",
-    "Web Pen/Server-Side Request Forgery(SSRF).md",
-    "Reconnaissance Passive/Identifying Website Technologies.md",
-    "Methodology.md",
-    "Pasted image 20230529100348.png",
-    "Web Pen/Server Side Template Injection",
-    "Web Pen/Broken Access Control.md",
-    "Web Pen/OS Command Injection.md",
-    "Web Pen/File Upload vulnerabilities.md",
-    "Active Directory/Active Directory Overview.md",
-    "Enumeration/Scanning with Nmap.md",
-    "Active Directory",
-    "Enumeration/SMTP Enumeration.md",
-    "Networking Refresher/Common Ports & Protocols.md",
-    "Enumeration/Enumeration overhell.md",
-    "Linux/Commands.md",
-    "Miscellaneous.md",
-    "The 5 Stages of Ethical Hacking.md",
-    "Web Pen/Business logic vulnerabilities.md",
     "Web Pen/Cross-Origin Resource Sharing(CORS).md",
-    "Web Pen/Directory Traversal.md",
-    "Web Pen/HTTP Request Smuggling.md",
-    "Web Pen/Burp suit.md",
+    "Tools/ffuf.md",
     "Web Pen/Local File Inclusion.md",
-    "Enumeration/SubDomains Enumeration.md",
-    "Enumeration/DNS Enumeration.md",
-    "Enumeration/Small Tools for enumeration.md",
-    "Linux/Operators.md",
-    "Exploit",
-    "Web Pen",
-    "Vulnerability scan",
-    "Reconnaissance Passive",
-    "Enumeration",
-    "Linux",
-    "Networking Refresher"
+    "Exploit/ATTACKING COMMON SERVICES/Attacking SQL Databases.md",
+    "Footprinting/HOSTS/MSSQL.md",
+    "Exploit/ATTACKING COMMON SERVICES/Attacking Remote Desktop Protocol (RDP).md",
+    "Footprinting/HOSTS/MySQL.md",
+    "Footprinting/Remote Management Protocols.md",
+    "Footprinting/HOSTS/SMB.md",
+    "Exploit/ATTACKING COMMON SERVICES/Attacking SMB.md",
+    "Exploit/ATTACKING COMMON SERVICES/Attacking Email Services.md",
+    "Footprinting/HOSTS/IMAP OR POP3.md",
+    "Footprinting/HOSTS/FTP.md",
+    "Exploit/ATTACKING COMMON SERVICES/Attacking FTP.md",
+    "Exploit/ATTACKING COMMON SERVICES/Interacting with Common Services.md",
+    "Footprinting/HOSTS/DNS.md",
+    "Exploit/ATTACKING COMMON SERVICES/Attacking DNS.md",
+    "Footprinting/HOSTS/NFS.md",
+    "Footprinting/HOSTS/SNMP.md",
+    "Footprinting/HOSTS/SMTP.md",
+    "Footprinting/Methodology.md",
+    "Exploit/Password Attacks/Remote Password Attacks.md",
+    "Exploit/Password Attacks/Linux Local Password Attacks.md",
+    "Exploit/Password Attacks/Windows Local Password Attacks.md",
+    "Exploit/Password Attacks/Windows Lateral Movement.md",
+    "Footprinting/HOSTS/Oracle TNS.md",
+    "Untitled.canvas",
+    "Pasted image 20230621125041.png",
+    "Pasted image 20230621121044.png",
+    "Pasted image 20230621120101.png",
+    "Pasted image 20230529100348.png",
+    "Footprinting/HOSTS",
+    "Footprinting",
+    "Untitled",
+    "Exploit/Password Attacks",
+    "Enumeration/Enumeration - WEB Edition/Untitled",
+    "Enumeration/Enumeration - WEB Edition",
+    "Theoretical Methodology",
+    "Tools",
+    "Enumeration/Common services",
+    "Exploit/Frameworks"
   ]
 }

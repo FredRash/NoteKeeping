@@ -1,4 +1,4 @@
-What is Same-Origin-Policy(Must to understand it before learing CORS)?
+What is Same-Origin-Policy(Must to understand it before learning CORS)?
 Same-Origin Policy is a rule that os enforced by browsers to control access to data between web application
 * This does not prevent writing between web app, it prevents reading between web app
 * Access is determined based on the origin
@@ -10,7 +10,7 @@ Cross-Origin Resource Sharing(CORS) is a mechanism that uses HTTP headers to def
 	* Access-Control-Allow-Credentials
 
 Access-Control-Allow-Origin
-Is a Header that indicates whether the response can be shared with requesting code from given origin. This header will apper in the response.
+Is a Header that indicates whether the response can be shared with requesting code from given origin. This header will appear in the response.
 Syntax:
 ```
 Access-Control-Allow-Origin: * -> any site can access the resources
@@ -26,19 +26,19 @@ Access-Control-Allow-Credentials: true
 ```
 Note: If the server is configured with the wildcard("*") as the value of Access-Control-Allow-Origin, then the use of the credentials is not allowed.
 
-CORS Vulnerablities
-* The Vulnerablities arise from CORS configuration issues.
-* Arise from restricitions on avaliable options set by the Access-Control-Allow-Origin header
-* The Access-Control-Allow-Origin header forrces developers to use dynamic generation and if the developer implement it poorly, Vulnerablities arise:
+CORS Vulnerabilities
+* The Vulnerabilities arise from CORS configuration issues.
+* Arise from restrictions on available options set by the Access-Control-Allow-Origin header
+* The Access-Control-Allow-Origin header forces developers to use dynamic generation and if the developer implement it poorly, Vulnerabilities arise:
 	*  Server-generated  Access-Control-Allow-Origin header from client-specified Origin header
 	* Errors parsing Origin header
-		* Grenting access to all domains that end in a specific string
+		* Granting access to all domains that end in a specific string
 			* Example: bank.com
 			* Bypass: maliciousbank.com
 		Granting access to all domains that begin with a specific string 
 	* Whitelist bull origin value
 
-How to find CORS Vulnerablities
+How to find CORS Vulnerabilities
 Black Box Testing
 * Map the App
 * Test the App for dynamic generation
